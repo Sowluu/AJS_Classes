@@ -1,0 +1,70 @@
+ng-class-odd.
+    - used to apply the css classes to the odd rows of table.
+
+
+ng-class-even.
+    - used to apply the css classes to the even rows of table.
+
+
+Syntax.
+
+.even{
+    color:red;
+}
+
+.odd{
+    color:green;
+}
+
+<table>
+    <tr ng-repeat="x in data" ng-class-odd="'odd'" ng-class-even="'even'">
+        //Logic Goes Here
+    </tr>
+</table>
+
+
+
+ng-switch.
+    - used to write switch cases in angular applications.
+
+
+Syntax.
+
+   <div ng-switch="expression">
+        <div ng-switch-when="value1">
+                //Logic
+        </div>
+
+        <div ng-switch-when="value2">
+                //Logic
+        </div>
+
+            --
+            --
+
+        <div ng-switch-default>
+                //Logic
+        </div>
+ </div>
+
+
+ ng-cloak.
+
+     - used to avoid the blinking / flickering of the web page before display the output.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
